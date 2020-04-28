@@ -4,6 +4,6 @@ spring:
   main:
     banner-mode: 'off'
 kafka:
-  bootstrapAddress: "localhost:9092"
-  topic: "prometheus"
+  bootstrapAddress: "kafka1-service:9092"
+  topic: "metrics"
 
